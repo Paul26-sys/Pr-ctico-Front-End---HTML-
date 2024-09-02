@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia en HTML</title>
+    <style>
+        .contenedor {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        video, audio {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Incorporación de Imágenes, Videos y Audios</h1>
+        
+        <!-- Imagen con atributo alt descriptivo -->
+        <h2>Imagen Descriptiva</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Paisaje de montaña con un lago en el fondo">
+        <p>Esta imagen muestra un hermoso paisaje de montaña con un lago al fondo.</p>
+
+        <!-- Video con controles de reproducción -->
+        <h2>Video de Ejemplo</h2>
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <p>Este es un video de muestra que incluye controles de reproducción.</p>
+
+        <!-- Audio con controles de reproducción -->
+        <h2>Audio de Ejemplo</h2>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Tu navegador no soporta la etiqueta de audio.
+        </audio>
+        <p>Este es un archivo de audio con controles de reproducción.</p>
+    </div>
+
+</body>
+</html>

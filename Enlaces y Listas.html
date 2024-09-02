@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegación y Listas en HTML</title>
+    <style>
+        .contenedor {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .titulo {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .texto {
+            font-size: 1em;
+            line-height: 1.5;
+            color: #333;
+        }
+        .navegacion {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navegacion">
+        <h2>Menú de Navegación</h2>
+        <ul>
+            <li><a href="#seccion1">Ir a Sección 1</a></li>
+            <li><a href="#seccion2">Ir a Sección 2</a></li>
+            <li><a href="#seccion3">Ir a Sección 3</a></li>
+            <li><a href="https://www.wikipedia.org/" target="_blank">Visitar Wikipedia</a></li>
+        </ul>
+    </div>
+
+    <div id="seccion1" class="contenedor">
+        <div class="titulo">
+            <h1>Sección 1: Introducción</h1>
+        </div>
+        <div class="texto">
+            <p>Esta es la primera sección del documento. Aquí puedes introducir el tema principal.</p>
+            <ol>
+                <li>Punto 1 de la lista ordenada.</li>
+                <li>Punto 2 de la lista ordenada.</li>
+                <li>Punto 3 de la lista ordenada.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="seccion2" class="contenedor">
+        <div class="titulo">
+            <h2>Sección 2: Detalles</h2>
+        </div>
+        <div class="texto">
+            <p>Esta sección proporciona más detalles sobre el tema. Aquí puedes expandir la información.</p>
+            <ul>
+                <li>Punto 1 de la lista desordenada.</li>
+                <li>Punto 2 de la lista desordenada.</li>
+                <li>Punto 3 de la lista desordenada.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="seccion3" class="contenedor">
+        <div class="titulo">
+            <h3>Sección 3: Conclusión</h3>
+        </div>
+        <div class="texto">
+            <p>Esta es la sección de conclusión, donde se resumen los puntos clave discutidos anteriormente.</p>
+            <p>Para más información, puedes <a href="#seccion1">volver a la Sección 1</a> o <a href="https://www.wikipedia.org/" target="_blank">visitar Wikipedia</a>.</p>
+        </div>
+    </div>
+
+</body>
+</html>

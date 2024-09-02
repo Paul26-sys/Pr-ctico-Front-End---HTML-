@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Semántico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, nav, section, article, aside, footer {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1200px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        article, aside {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado del documento -->
+    <header>
+        <h1>Bienvenido a Nuestro Sitio Web</h1>
+        <p>Aprende sobre la importancia de un diseño semántico en HTML.</p>
+    </header>
+
+    <!-- Navegación principal -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#articulos">Artículos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Sección principal del contenido -->
+    <section>
+        <!-- Artículo principal -->
+        <article id="inicio">
+            <h2>La Importancia de la Semántica en HTML</h2>
+            <p>Usar etiquetas semánticas en HTML no solo mejora la accesibilidad, sino que también facilita la comprensión del contenido por parte de los motores de búsqueda.</p>
+            <p>Por ejemplo, un <strong>header</strong> define la cabecera de una página o una sección, mientras que un <strong>footer</strong> suele contener información de pie de página como los derechos de autor.</p>
+        </article>
+
+        <!-- Artículo secundario -->
+        <article id="articulos">
+            <h2>Artículos Recientes</h2>
+            <p>A continuación se muestran algunos de los artículos más recientes sobre diseño web y buenas prácticas.</p>
+            <ul>
+                <li><a href="#">Entendiendo HTML Semántico</a></li>
+                <li><a href="#">CSS para Mejores Interfaces</a></li>
+                <li><a href="#">Accesibilidad en la Web</a></li>
+            </ul>
+        </article>
+
+        <!-- Barra lateral -->
+        <aside>
+            <h3>Sobre Nosotros</h3>
+            <p>Somos un equipo de desarrolladores dedicados a mejorar la calidad de los sitios web a través del uso de buenas prácticas en diseño y codificación.</p>
+        </aside>
+    </section>
+
+    <!-- Pie de página del documento -->
+    <footer id="contacto">
+        <p>Contacto: info@nuestrousuario.com</p>
+        <p>&copy; 2024 Nuestro Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
